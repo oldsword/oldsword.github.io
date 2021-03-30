@@ -4,7 +4,7 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/quiat10.js'], function(APICons
 	return iatExtension({
 
 		category1 : {
-			name : 'Career', //Will appear in the data.
+			name : 'Carriera', //Will appear in the data.
 			title : {
 				media : {word : 'Carriera'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
