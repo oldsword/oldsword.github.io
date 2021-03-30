@@ -2,5 +2,6 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/quiat0.js'], function(APIConst
     var API = new APIConstructor();
 
 	return iatExtension({
+		fullscreen:false
 	});
 });
