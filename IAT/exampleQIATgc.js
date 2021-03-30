@@ -25,7 +25,7 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/quiat10.js'], function(APICons
 		category2 :	{
 			name : 'Famiglia', //Will appear in the data.
 			title : {
-				media : {word : 'Family'}, //Name of the category presented in the task.
+				media : {word : 'Famiglia'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
