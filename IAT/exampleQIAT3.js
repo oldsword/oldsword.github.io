@@ -86,6 +86,10 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/quiat11.js'], function(APICons
 
 		//Should we randomize which category is on the right first?
 		randomBlockOrder : false, //Accepts 'true' and 'false'. If false, then category1 on the left first.
-		showDebriefing:true
+		showDebriefing:true,
+		fb_strong_Att1WithCatA_Att2WithCatB : 'Your responses suggested a strong automatic association for attribute1 with categoryA and attribute2 with categoryB.',
+                fb_moderate_Att1WithCatA_Att2WithCatB : 'Your responses suggested a moderate automatic association for attribute1 with categoryA and attribute2 with categoryB.',
+                fb_slight_Att1WithCatA_Att2WithCatB : 'Your responses suggested a slight automatic association for attribute1 with categoryA and attribute2 with categoryB.',
+                fb_equal_CatAvsCatB : 'Your responses suggested little or no automatic association between attribute2 and attribute1 with categoryA and categoryB.'
 	});
 });
