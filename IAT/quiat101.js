@@ -329,10 +329,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
-			fb_strong_Att1WithCatA_Att2WithCatB : 'Your responses suggested a strong automatic preference for categoryB over categoryA.',
-			fb_moderate_Att1WithCatA_Att2WithCatB : 'Your responses suggested a moderate automatic preference for categoryB over categoryA.',
-			fb_slight_Att1WithCatA_Att2WithCatB : 'Your responses suggested a slight automatic preference for categoryB over categoryA.',
-			fb_equal_CatAvsCatB : 'Your responses suggested no automatic preference between categoryA and categoryB.',
+			fb_strong_Att1WithCatA_Att2WithCatB : 'Your responses suggested a strong automatic association for attribute1 with categoryA and attribute2 with categoryB.',
+			fb_moderate_Att1WithCatA_Att2WithCatB : 'Your responses suggested a moderate automatic association for attribute1 with categoryA and attribute2 with categoryB.',
+			fb_slight_Att1WithCatA_Att2WithCatB : 'Your responses suggested a slight automatic association for attribute1 with categoryA and attribute2 with categoryB.',
+			fb_equal_CatAvsCatB : 'Your responses suggested little or no automatic association between attribute2 and attribute1 with categoryA and categoryB.',
 
 			//Error messages in the feedback
 			manyErrors: 'There were too many errors made to determine a result.',
