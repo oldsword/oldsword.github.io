@@ -81,6 +81,10 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Bilendi/english/quiat_english.
 		base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/'
 		},
+		
+		//Full Screen
+		fullscreen:false, //Should we show the task in full screen? A Qualtrics-only feature because in the usual Minno, we can go full-screen right at the beginning of the study.
+		
 		//Should we randomize which attribute is on the right, and which on the left?
 		randomAttSide : false, // Accepts 'true' and 'false'. If false, then attribute2 on the right.
 
