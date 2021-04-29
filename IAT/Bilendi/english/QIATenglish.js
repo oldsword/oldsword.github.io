@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://oldsword.github.io/IAT/Bilendi/english/quiatenglish.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://oldsword.github.io/IAT/Bilendi/english/quiat_english.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
@@ -82,8 +82,6 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Bilendi/english/quiatenglish.j
 			image : 'https://baranan.github.io/minno-tasks/images/'
 		},
 		
-		// Full screen
-		fullscreen: true,
 		//Should we randomize which attribute is on the right, and which on the left?
 		randomAttSide : false, // Accepts 'true' and 'false'. If false, then attribute2 on the right.
 
