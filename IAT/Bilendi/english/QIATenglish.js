@@ -82,6 +82,8 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Bilendi/english/quiatenglish.j
 			image : 'https://baranan.github.io/minno-tasks/images/'
 		},
 		
+		// Full screen
+		fullscreen:false,
 		//Should we randomize which attribute is on the right, and which on the left?
 		randomAttSide : false, // Accepts 'true' and 'false'. If false, then attribute2 on the right.
 
