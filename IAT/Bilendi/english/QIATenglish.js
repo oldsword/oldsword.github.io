@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://oldsword.github.io/IAT/Bilendi/english/quiat_english.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://oldsword.github.io/IAT/Bilendi/english/quiatenglish.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
