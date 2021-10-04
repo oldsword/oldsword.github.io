@@ -11,7 +11,7 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/code_IAT.js'
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-            {word: 'Career'},
+         		        {word: 'Carriera'},
 				{word: 'Società'},
 				{word: 'Salario'},
 				{word: 'Ufficio'},
