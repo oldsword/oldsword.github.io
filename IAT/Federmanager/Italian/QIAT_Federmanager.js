@@ -50,7 +50,7 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/code_IAT_Ita
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-            	{word: 'Ben'},
+            			{word: 'Franco'},
 				{word: 'Paolo'},
 				{word: 'Daniele'},
 				{word: 'Giovanni'},
@@ -68,7 +68,7 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/code_IAT_Ita
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-          {word: 'Rebecca'},
+          			{word: 'Rebecca'},
 				{word: 'Giulia'},
 				{word: 'Laura'},
 				{word: 'Martina'},
