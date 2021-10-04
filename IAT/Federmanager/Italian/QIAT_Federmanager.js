@@ -87,6 +87,7 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/code_IAT.js'
 
 		//Should we randomize which category is on the right first?
 		randomBlockOrder : false, //Accepts 'true' and 'false'. If false, then category1 on the left first.
+		fullscreen:true,
 		showDebriefing: false,
 		fb_strong_Att1WithCatA_Att2WithCatB : 'Your responses suggested a strong automatic association for attribute1 with categoryA and attribute2 with categoryB.',
                 fb_moderate_Att1WithCatA_Att2WithCatB : 'Your responses suggested a moderate automatic association for attribute1 with categoryA and attribute2 with categoryB.',
