@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/code_IAT.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/code_IAT_Italian.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
