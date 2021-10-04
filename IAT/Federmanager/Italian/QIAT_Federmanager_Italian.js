@@ -4,18 +4,18 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/code_IAT.js'
 	return iatExtension({
 
 		category1 : {
-			name : 'Career', //Will appear in the data.
+			name : 'Carriera', //Will appear in the data.
 			title : {
-				media : {word : 'Career'}, //Name of the category presented in the task.
+				media : {word : 'Carriera'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
             {word: 'Career'},
-				{word: 'Corporation'},
-				{word: 'Salary'},
-				{word: 'Office'},
-				{word: 'Professional'},
+				{word: 'Società'},
+				{word: 'Salario'},
+				{word: 'Ufficio'},
+				{word: 'Professionale'},
 				{word: 'Management'},
 				{word: 'Business'}
 			], 
@@ -23,55 +23,55 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/code_IAT.js'
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Family', //Will appear in the data.
+			name : 'Famiglia', //Will appear in the data.
 			title : {
-				media : {word : 'Family'}, //Name of the category presented in the task.
+				media : {word : 'Famiglia'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
            	{word: 'Wedding'},
-				{word: 'Marriage'},
-				{word: 'Parents'},
-				{word: 'Relatives'},
-				{word: 'Family'},
-				{word: 'Home'}, 
-				{word: 'Children'}
+				{word: 'Matrimonio'},
+				{word: 'Genitori'},
+				{word: 'Parenti'},
+				{word: 'Famiglia'},
+				{word: 'Casa'}, 
+				{word: 'Bambini'}
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},
 		attribute1 :
 		{
-			name : 'Male',
+			name : 'Uomo',
 			title : {
-				media : {word : 'Male'},
+				media : {word : 'Uomo'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
             	{word: 'Ben'},
-				{word: 'Paul'},
-				{word: 'Daniel'},
-				{word: 'John'},
-				{word: 'Jeffrey'}
+				{word: 'Paolo'},
+				{word: 'Daniele'},
+				{word: 'Giovanni'},
+				{word: 'Lorenzo'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},
 		attribute2 :
 		{
-			name : 'Female',
+			name : 'Donna',
 			title : {
-				media : {word : 'Female'},
+				media : {word : 'Donna'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
           {word: 'Rebecca'},
-				{word: 'Michelle'},
-				{word: 'Emily'},
-				{word: 'Julia'},
+				{word: 'Giulia'},
+				{word: 'Laura'},
+				{word: 'Martina'},
 				{word: 'Anna'}
 			],
 			//Stimulus css
