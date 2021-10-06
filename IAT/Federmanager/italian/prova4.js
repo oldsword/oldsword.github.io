@@ -30,7 +30,7 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/quiat_italia
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-           			{word: 'Matrimonio'},
+           			{word: 'Nozze'},
 				{word: 'Matrimonio'},
 				{word: 'Genitori'},
 				{word: 'Parenti'},
