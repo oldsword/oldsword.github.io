@@ -86,6 +86,7 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/quiat_italia
 	randomAttSide : false, // Accepts 'true' and 'false'. If false, then attribute2 on the right.
 	//Should we randomize which category is on the right first?
 	randomBlockOrder : false, //Accepts 'true' and 'false'. If false, then category1 on the left first.
-	showDebriefing: false
+	showDebriefing: false,
+	fullscreen: true
 	});
 });
