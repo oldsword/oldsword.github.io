@@ -142,7 +142,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			remindError : true,
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparira. ' +
+			'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. ' +
 			'Premi altro tasto per continuare.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
@@ -190,7 +190,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Metti un dito sinistro sul tasto <b>E</b> per elementi che appartengono alla categoria <font color="#0000ff">leftAttribute.</font>' +
 				'<br/>Metti un dito destro sul tasto <b>I</b> per elementi che appartengono alla categoria <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
-				'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparira. ' +
+				'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. ' +
 				'Premi altro tasto per continuare.<br/>' +
 				'<u>Vai più veloce che puoi</u> ma sii accurato.<br/><br/></p>'+
 				'<p align="center">Premi <b>SPAZIO</b> quando vuoi iniziare.</font></p></div>',
@@ -205,7 +205,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'Metti un dito destro su area verde a <b>destra</b> per elementi che appartengono alla categoria <font color="#0000ff">rightAttribute</font>.<br/>',
 						'Gli elementi appariranno uno alla volta.<br/>',
 						'<br/>',
-						'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparira. Tocca altro lato. <u>Vai più che veloce che puoi</u> ma sii accurato.',
+						'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato. <u>Vai più che veloce che puoi</u> ma sii accurato.',
 					'</p>',
 					'<p align="center">Tocca area verde <b>in basso </b> per iniziare.</p>',
 				'</div>'
@@ -258,7 +258,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<p align="left" style="margin-left:5px">',
 						'Metti un dito sinistro su area verde a <b>sinistra</b> per elementi di <font color="#336600">leftCategory</font> e di <font color="#0000ff">leftAttribute</font>.</br>',
 						'Metti un destra su area verde a <b>destra</b> per elementi di <font color="#336600">rightCategory</font> e di <font color="#0000ff">rightAttribute</font>.</br>',
-							'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparira. Tocca altro lato. <u>Vai più veloce che puoi</u> ma sii accurato.</br>',
+							'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato. <u>Vai più veloce che puoi</u> ma sii accurato.</br>',
 						'</p>',
 						'<p align="center">Tocca area verde <b>in basso </b> per iniziare.</p>',
 				'</div>'
