@@ -11,12 +11,12 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/quiat_italia
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-            {word: 'Career'},
+           			{word: 'Carriera'},
 				{word: 'Azienda'},
 				{word: 'Salario'},
 				{word: 'Ufficio'},
 				{word: 'Professionista'},
-				{word: 'Management'},
+				{word: 'Manager'},
 				{word: 'Business'}
 			], 
 			//Stimulus css (style)
@@ -30,7 +30,7 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/quiat_italia
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-           	{word: 'Wedding'},
+           			{word: 'Matrimonio'},
 				{word: 'Matrimonio'},
 				{word: 'Genitori'},
 				{word: 'Parenti'},
