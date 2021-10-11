@@ -164,8 +164,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
             		rightKey: 'i',
 			
 			//Text and style for key instructions displayed about the category labels.
-			leftKeyText : 'Press "E" for', 
-			rightKeyText : 'Press "I" for', 
+			leftKeyText : 'Premi "E" per', 
+			rightKeyText : 'Premi "I" per', 
 			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
 			//Text and style for the separator between the top and bottom category labels.
 			orText : 'or', 
@@ -201,11 +201,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
-						'Metti un dito sinistro su area verde a <b>sinistra</b> per elementi che appartengono alla categoria <font color="#0000ff">leftAttribute</font>.<br/>',
-						'Metti un dito destro su area verde a <b>destra</b> per elementi che appartengono alla categoria <font color="#0000ff">rightAttribute</font>.<br/>',
+						'Tocca area verde a <b>sinistra</b> per elementi che appartengono alla categoria <font color="#0000ff">leftAttribute</font>.<br/>',
+						'Tocca area verde a <b>destra</b> per elementi che appartengono alla categoria <font color="#0000ff">rightAttribute</font>.<br/>',
 						'Gli elementi appariranno uno alla volta.<br/>',
 						'<br/>',
-						'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato. <u>Vai più che veloce che puoi</u> ma sii accurato.',
+						'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato per continuare. <u>Vai più che veloce che puoi</u> ma senza sbagliare!.',
 					'</p>',
 					'<p align="center">Tocca area verde <b>in basso </b> per iniziare.</p>',
 				'</div>'
@@ -214,12 +214,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Metti un dito sinistro sul tasto <b>E</b> per elementi che appartengono alla categoria <font color="#336600">leftCategory</font>. ' +
-				'<br/>Metti un dito destro sul tasto <b>I</b> per elementi che appartengono alla categoria <font color="#336600">rightCategory</font>.<br/>' +
+				'Metti un dito sul tasto <b>E</b> per elementi che appartengono alla categoria <font color="#336600">leftCategory</font>. ' +
+				'<br/>Metti un sul tasto <b>I</b> per elementi che appartengono alla categoria <font color="#336600">rightCategory</font>.<br/>' +
 				'Gli elementi appariranno uno alla volta.<br/><br/>' +
 				'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. ' +
-				'Premi altro lato per continuare.<br/>' +
-				'<u>Vai più veloce che puoi</u> ma sii accurato.<br/><br/></p>'+
+				'Premi altro tasto per continuare.<br/>' +
+				'<u>Vai più veloce che puoi</u> ma senza sbagliare!.<br/><br/></p>'+
 				'<p align="center">Premi <b>SPAZIO</b> quando vuoi iniziare.</font></p></div>',
 			instCategoriesPracticeTouch: [
 				'<div>',
@@ -228,11 +228,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
-						'Metti un dito sinistro su area verde a <b>sinistra</b> per elementi che appartengono alla categoria <font color="#336600">leftCategory</font>.<br/>',
-						'Metti un dito destro su area verde a <b>destra</b> per elementi che appartengono alla categoria <font color="#336600">rightCategory</font>.<br/>',
+						'Tocca area verde a <b>sinistra</b> per elementi che appartengono alla categoria <font color="#336600">leftCategory</font>.<br/>',
+						'Tocca area verde a <b>destra</b> per elementi che appartengono alla categoria <font color="#336600">rightCategory</font>.<br/>',
 						'Gli elementi appariranno uno alla volta.<br/>',
 						'<br/>',
-						'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato. <u>Vai più che veloce che puoi</u> ma sii accurato.',
+						'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato per continuare. <u>Vai più che veloce che puoi</u> ma senza sbagliare!.',
 					'</p>',
 					'<p align="center">Tocca area verde <b>in basso </b> per iniziare.</p>',
 				'</div>'
@@ -241,12 +241,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instFirstCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Usa il tasto <b>E</b> per <font color="#336600">leftCategory</font> e per <font color="#0000ff">leftAttribute</font>.<br/>' +
-				'Usa il taso <b>I</b> per <font color="#336600">rightCategory</font> e per <font color="#0000ff">rightAttribute</font>.<br/>' +
+				'Usa il tasto <b>E</b> per elementi di <font color="#336600">leftCategory</font> e di <font color="#0000ff">leftAttribute</font>.<br/>' +
+				'Usa il taso <b>I</b> per elementi di <font color="#336600">rightCategory</font> e di <font color="#0000ff">rightAttribute</font>.<br/>' +
 				'Ogni elemento appartiene ad una sola categoria.<br/><br/>' +
 				'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. ' +
 				'Premi altro tasto per continuare.<br/>' + 
-				'<u>Vai più veloce che puoi</u> ma sii accurato.<br/><br/></p>' +
+				'<u>Vai più veloce che puoi</u> ma senza sbagliare!.<br/><br/></p>' +
 				'<p align="center">Premi <b>SPAZIO</b> quando vuoi iniziare.</font></p></div>',
 			instFirstCombinedTouch:[
 				'<div>',
@@ -256,9 +256,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<br/>',
 					'<br/>',
 					'<p align="left" style="margin-left:5px">',
-						'Metti un dito sinistro su area verde a <b>sinistra</b> per elementi di <font color="#336600">leftCategory</font> e di <font color="#0000ff">leftAttribute</font>.</br>',
-						'Metti un destra su area verde a <b>destra</b> per elementi di <font color="#336600">rightCategory</font> e di <font color="#0000ff">rightAttribute</font>.</br>',
-							'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato. <u>Vai più veloce che puoi</u> ma sii accurato.</br>',
+						'Tocca area verde a <b>sinistra</b> per elementi di <font color="#336600">leftCategory</font> e di <font color="#0000ff">leftAttribute</font>.</br>',
+						'Tocca area verde a <b>destra</b> per elementi di <font color="#336600">rightCategory</font> e di <font color="#0000ff">rightAttribute</font>.</br>',
+							'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato per continuare. <u>Vai più veloce che puoi</u> ma senza sbagliare!.</br>',
 						'</p>',
 						'<p align="center">Tocca area verde <b>in basso </b> per iniziare.</p>',
 				'</div>'
@@ -268,10 +268,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Questa parte è uguale alla precedente.<br/>' +
-				'Usa il tasto <b>E</b> per <font color="#336600">leftCategory</font> e per <font color="#0000ff">leftAttribute</font>.<br/>' +
-				'Usa il tasto <b>I</b> per <font color="#336600">rightCategory</font> e per <font color="#0000ff">rightAttribute</font>.<br/>' +
+				'Usa il tasto <b>E</b> per elementi di <font color="#336600">leftCategory</font> e di <font color="#0000ff">leftAttribute</font>.<br/>' +
+				'Usa il tasto <b>I</b> per elementi di <font color="#336600">rightCategory</font> e di <font color="#0000ff">rightAttribute</font>.<br/>' +
 				'Ogni elemento appartiene ad una sola categoria.<br/><br/>' +
-				'<u>Vai più veloce che puoi</u> ma sii accurato.<br/><br/></p>' +
+				'<u>Vai più veloce che puoi</u> ma senza sbagliare!.<br/><br/></p>' +
 				'<p align="center">Premi <b>SPAZIO</b> quando vuoi iniziare.</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
@@ -280,10 +280,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<br/>',
 
 					'<p align="left" style="margin-left:5px">',
-						'Metti un dito sinistro su area verde a <b>sinistra</b> per elementi di <font color="#336600">leftCategory</font> e di <font color="#0000ff">leftAttribute</font>.<br/>',
-						'Metti un dito destro su area verde a <b>destra</b> per elementi di <font color="#336600">rightCategory</font> e di <font color="#0000ff">rightAttribute</font>.<br/>',
+						'Tocca area verde a <b>sinistra</b> per elementi di <font color="#336600">leftCategory</font> e di <font color="#0000ff">leftAttribute</font>.<br/>',
+						'Tocca area verde a <b>destra</b> per elementi di <font color="#336600">rightCategory</font> e di <font color="#0000ff">rightAttribute</font>.<br/>',
 						'<br/>',
-						'<u>Vai più veloce che puoi</u> ma sii accurato.<br/>',
+						'<u>Vai più veloce che puoi</u> ma senza sbagliare!.<br/>',
 					'</p>',
 					'<p align="center">Tocca area verde <b>in basso </b> per iniziare.</p>',
 				'</div>'
@@ -293,9 +293,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<b>Attenzione, le categorie hanno cambiato posizione!</b><br/>' +
-				'Metti un dito sinistro sul tasto <b>E</b> per <font color="#336600">leftCategory</font>.<br/>' +
-				'Metti un dito destro sul tasto <b>I</b> per <font color="#336600">rightCategory</font>.<br/><br/>' +
-				'<u>Vai più veloce che puoi</u> ma sii accurato.<br/><br/></p>' +
+				'Usa il tasto <b>E</b> per <font color="#336600">leftCategory</font>.<br/>' +
+				'Usa il tasto <b>I</b> per <font color="#336600">rightCategory</font>.<br/><br/>' +
+				'<u>Vai più veloce che puoi</u> ma senza sbagliare.<br/><br/></p>' +
 				'<p align="center">Premi <b>SPAZIO</b> quando vuoi iniziare.</font></p></div>',
 			instSwitchCategoriesTouch: [
 				'<div>',
@@ -305,11 +305,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
 						'Attenzione, le categorie hanno cambiato posizione!<br/>',
-							'Metti un dito sinistro su area verde a <b>sinistra</b> per elementi di <font color="#336600">leftCategory</font>.<br/>',
-							'Metti un dito destro su area verde a <b>destra</b> per elementi di <font color="#336600">rightCategory</font>.<br/>',
+							'Tocca area verde a <b>sinistra</b> per elementi di <font color="#336600">leftCategory</font>.<br/>',
+							'Tocca area verde a <b>destra</b> per elementi di <font color="#336600">rightCategory</font>.<br/>',
 							'Gli elementi appariranno uno alla volta.',
 							'<br/>',
-							'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato. <u>Vai più veloce che puoi</u> ma sii accurato.<br/>',
+							'Se commetti un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. Tocca altro lato per continuare. <u>Vai più veloce che puoi</u> ma senza sbagliare!.<br/>',
 						'</p>',
 						'<p align="center">Tocca area verde <b>in basso </b> per iniziare.</p>',
 				'</div>'
