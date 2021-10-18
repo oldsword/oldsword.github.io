@@ -80,6 +80,13 @@ define(['pipAPI', 'https://oldsword.github.io/IAT/Leonardo/code/quiat10.js'], fu
 
 		base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/'
-		} 
+		},
+   		//Should we randomize which attribute is on the right, and which on the left?
+		randomAttSide : false, // Accepts 'true' and 'false'. If false, then attribute2 on the right.
+
+		//Should we randomize which category is on the right first?
+		randomBlockOrder : false, //Accepts 'true' and 'false'. If false, then category1 on the left first.
+		showDebriefing: false,
+    fullscreen: true
 	});
 });
