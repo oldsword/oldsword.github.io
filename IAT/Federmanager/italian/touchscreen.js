@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/quiat_mobile.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://oldsword.github.io/IAT/Federmanager/code/touchscreen_code.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
