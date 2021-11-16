@@ -146,7 +146,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			'Per continuare prema il tasto corretto.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
-			'Se commette un errore, una <font color="#ff0000"><b>X</b></font> rossa comparira. ' +
+			'Se commette un errore, una <font color="#ff0000"><b>X</b></font> rossa comparirà. ' +
 			'Per continuare tocchi il tasto corretto.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
